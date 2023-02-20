@@ -13,110 +13,66 @@
 
 body {
   color: var(--slate);
-  position: relative;
-  width: 1440px;
-  height: 2590px;
   background-color: var(--main-background);
   font-family: "Roboto";
-  font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-h2 {
+.section-title {
   color: var(--navy-blue);
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
   font-size: 36px;
-  line-height: 111%;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 /*  H E A D E R */
 
-.top-line {
-  background-color: var(--accent);
-}
 /* logo */
 .logo {
   text-decoration: none;
-}
-.logo-light {
   color: var(--iris);
   font-family: "Raleway";
-  font-style: no5rmal;
+  font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 133%;
+  line-height: 1.33;
   letter-spacing: 0.03em;
 }
+
 .logo-studio {
   color: var(--navy-blue-modal);
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 133%;
 }
 /* navbar */
-.nav-item-link {
+.nav-link {
   color: var(--navy-blue-modal);
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
 }
-.nav-item-link {
+.nav-link {
   text-decoration: none;
 }
-.nav-item-link:hover,
-:focus {
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
   color: var(--ocean);
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
-  text-decoration: underline;
 }
+
 /* contacts */
 ul li {
   list-style-type: none;
 }
-.email,
-.phone-number {
+.adress-link {
   color: var(--slate);
-  font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
   text-decoration: none;
 }
-.email:hover,
-:focus {
+.adress-link:hover,
+.adress-link:focus,
+.adress-link:active {
   color: var(--ocean);
-  font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  text-decoration: underline;
-}
-.phone-number:hover,
-:focus {
-  color: var(--ocean);
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
   text-decoration: underline;
 }
 
@@ -127,11 +83,8 @@ ul li {
 }
 .hero-title {
   color: var(--main-background);
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
   font-size: 56px;
-  line-height: 107%;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
 }
@@ -140,7 +93,7 @@ ul li {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--main-background);
@@ -155,19 +108,17 @@ ul li {
 }
 
 .hero-btn:hover,
-:focus {
+.hero-btn:focus {
   background-color: var(--ocean);
 }
 
 /*  B E N E F I T S  S E C T I O N */
 
-.bnfts-list-title {
+.bnfts-title {
   color: var(--dark);
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%px;
+  line-height: 1.2px;
   letter-spacing: 0.02em;
 }
 
@@ -177,11 +128,9 @@ ul li {
 
 .team-member {
   color: var(--navy-blue);
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 /*  F O O T E R */
@@ -189,22 +138,8 @@ ul li {
 .bottom {
   background-color: var(--navy-blue);
 }
-.logo-dark {
-  color: var(--iris);
-  font-family: "Raleway";
-  font-style: no5rmal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 133%;
-  letter-spacing: 0.03em;
-}
 .logo-studio-dark {
   color: var(--light);
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 133%;
 }
 .bottom-text {
   color: var(--accent);
@@ -224,14 +159,14 @@ ul li {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--iris);
   cursor: pointer;
 }
 .filter-btn:hover,
-:focus {
+.filter-btn:focus {
   background-color: var(--ocean);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -240,10 +175,7 @@ ul li {
 }
 .card-name {
   color: var(--navy-blue);
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
