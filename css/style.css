@@ -72,8 +72,6 @@ ul li {
 .adress-link:focus,
 .adress-link:active {
   color: var(--ocean);
-  font-style: normal;
-  text-decoration: underline;
 }
 
 /*  H E R O  S E C T I O N */
@@ -115,10 +113,10 @@ ul li {
 /*  B E N E F I T S  S E C T I O N */
 
 .bnfts-title {
-  color: var(--dark);
+  color: var(--navy-blue);
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
@@ -151,8 +149,6 @@ ul li {
 
 .filter-btn {
   background-color: var(--accent);
-  width: 116px;
-  height: 48px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   font-family: "Roboto";
@@ -177,5 +173,4 @@ ul li {
   color: var(--navy-blue);
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
 }
