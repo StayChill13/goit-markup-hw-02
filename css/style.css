@@ -14,7 +14,7 @@
 body {
   color: var(--slate);
   background-color: var(--main-background);
-  font-family: "Roboto";
+  font-family: "Roboto" sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -33,23 +33,30 @@ body {
 .logo {
   text-decoration: none;
   color: var(--iris);
-  font-family: "Raleway";
+  font-family: "Raleway" sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .logo-studio {
   color: var(--navy-blue-modal);
 }
 /* navbar */
+.list {
+  list-style: none;
+}
 .nav-link {
   color: var(--navy-blue-modal);
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-.nav-link {
+.link {
   text-decoration: none;
 }
 .nav-link:hover,
