@@ -81,7 +81,7 @@ ul li {
   background: var(--navy-blue);
 }
 .hero-title {
-  color: #ffffff;
+  color: var(--main-background);
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -108,7 +108,7 @@ ul li {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: #404bbf;
+  background-color: var(--oceans);
 }
 
 /*  B E N E F I T S  S E C T I O N */
