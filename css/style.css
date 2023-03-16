@@ -109,7 +109,7 @@ ul li {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: var(--ocean);
+  background-color: #404bbf;
 }
 
 /*  B E N E F I T S  S E C T I O N */
@@ -135,11 +135,11 @@ ul li {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: (var(--navy-blue));
+  color: var(--navy-blue);
 }
 /* Section 3 */
 .team {
-  color: var(--light);
+  background-color: var(--light);
 }
 .team-member {
   color: var(--navy-blue);
@@ -163,7 +163,7 @@ ul li {
   color: var(--slate);
 }
 .team-item {
-  color: var(--main-background);
+  background-color: var(--main-background);
 }
 /*  F O O T E R */
 
@@ -182,10 +182,10 @@ ul li {
 /*  P O R T F O L I O */
 
 .filter-btn {
-  background-color: var(--accent);
+  background-color: var(--light);
   border: 1px solid #e7e9fc;
   border-radius: 4px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -204,7 +204,15 @@ ul li {
   color: var(--main-background);
 }
 .card-name {
+  font-weight: 500;
   color: var(--navy-blue);
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.card-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
 }
