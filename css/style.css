@@ -10,7 +10,6 @@
   --navy-blue-modal: #2e2f42;
   --main-background: #ffffff;
 }
-
 body {
   color: var(--slate);
   background-color: var(--main-background);
