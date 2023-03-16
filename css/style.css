@@ -113,6 +113,14 @@ ul li {
 }
 
 /*  B E N E F I T S  S E C T I O N */
+.benefits-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+}
 
 .bnfts-subtitle {
   color: var(--navy-blue);
