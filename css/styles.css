@@ -11,9 +11,9 @@
   --main-background: #ffffff;
 }
 body {
-  color: var(--slate);
+  color: #434455;
   background-color: var(--main-background);
-  font-family: "Roboto", Sans-Serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
